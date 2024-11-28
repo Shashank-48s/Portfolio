@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/My pic.jpg" alt="SHASHANK" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="SHASHANK">SHASHANK S</h1>
+
+          <p class="title"><b><u>Machine Learning and AI Engineer </u></b></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a 
+                href="https://mail.google.com/mail/?view=cm&to=shashank.samatha@gmail.com" 
+                target="_blank" 
+                class="contact-link">
+                shashank.samatha@gmail.com
+              </a>
+            </div>            
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bengaluru, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+        
+          <!-- LinkedIn -->
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shashank-s-92a0b8230/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        
+          <!-- GitHub -->
+          <li class="social-item">
+            <a href="https://github.com/Shashank-48s" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        
+          <!-- Download CV -->
+          <li class="social-item">
+            <a href="assets/images/Shashank  S Resume.pdf" download class="social-link">
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+          </li>
+        
+        </ul>
+        
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a motivated engineering student with a deep passion for technology and a relentless drive to enhance my skills while contributing meaningfully to impactful projects. My goal is to gain valuable insights from industry experts and collaborate on initiatives that push the boundaries of innovation within the technology sector. With a strong foundation in technical and problem-solving skills, I am committed to leveraging my academic knowledge to address real-world challenges effectively. My approach is rooted in a growth mindset, ensuring that I continuously learn and evolve to stay aligned with the latest advancements and trends in the industry.
+          </p>
+         <p>
+          In addition to my technical expertise, I pride myself on my ability to work collaboratively within diverse teams to deliver creative and practical solutions. I am eager to apply my skills in dynamic environments that foster learning and innovation, striving to contribute to the success of forward-thinking projects. With a focus on continuous improvement and adaptability, I am confident in my ability to make a meaningful impact while building a career that aligns with my passion for technology and engineering.
+         </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/machine-learning-03-svgrepo-com.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  The most cutting-edge and professional-grade design tailored for Machine Learning applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">front-end development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-analytics-bars-graphic-svgrepo-com (1).svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                  The most advanced and professional-grade design crafted for Data Analytics solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Responsive Designes</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design optimized for seamless responsiveness across all devices.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HKBK College of engineering </h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                CGPA: 7.3 </br> Studying engineering has deepened my technical knowledge and enhanced my problem-solving skills. I’m passionate about applying innovative solutions to real-world challenges. Through hands-on projects and teamwork, I am preparing to make a meaningful impact in the field of engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Govt Tool Room and Training Center</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Percentage: 70% </br> Studying at a diploma college provided me with a strong foundation in engineering principles and hands-on experience. It sharpened my technical skills and problem-solving abilities. I’m eager to build on this knowledge as I continue my journey in the field of engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assumption English School</h4>
+
+              <span>2006 — 2018</span>
+
+              <p class="timeline-text">
+                Percentage: 72% </br> My school education laid the groundwork for my passion for learning and problem-solving. It helped me develop strong analytical skills and a curiosity for how things work. These early experiences inspired me to pursue engineering and continue exploring new ideas and challenges.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Karunadu Technologies Private Limited</h4>
+
+              <span>Oct, 2023-Nov, 2023</span>
+
+              <p class="timeline-text">
+                Implemented a machine learning project in Django, demonstrating knowledge in data processing, predictive modeling, 
+                and application development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Simpli Learn</h4>
+
+              <span>Sep, 2024-Sep, 2024</span>
+
+              <p class="timeline-text">
+                Developed client websites and supported team in building robust digital solutions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TAFE, Tractors and Farm Equipment’s Limited</h4>
+
+              <span>Jan, 2022-Sep, 2022</span>
+
+              <p class="timeline-text">
+                Completed 9 Months implant training as CNC Operator in (TAFE) Tractors and Farm Equipment’s limited, 
+                focusing on precision machining and tool management.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML,CSS,JavaScript</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Django</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C, C++</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+    - #PROJECTS
+-->
+
+<article class="projects" data-page="projects">
+
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Front-end Projects</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Machine Learning Projects</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Data Analytics Projects</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <ul class="project-list">
+
+      <!-- Front-end Projects Section -->
+      <li class="project-item active" data-filter-item data-category="front-end">
+        <a href="https://github.com/Shashank-48s/diabetes_d">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_w8y1pf9mdhafhmimlk6s.jpg" alt="front-end project" loading="lazy">
+          </figure>
+          <h3 class="project-title">Diabetes Predection Using Decision Tree algorithm</h3>
+          <p class="project-category">Machine-Learning</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="front-end">
+        <a href="https://github.com/Shashank-48s/Zomatoclone">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/zomato.jpg" alt="front-end project" loading="lazy">
+          </figure>
+          <h3 class="project-title">Zomatoclone</h3>
+          <p class="project-category">Front-end</p>
+        </a>
+      </li>
+
+      <!-- Machine Learning Projects Section -->
+      <li class="project-item active" data-filter-item data-category="machine-learning">
+        <a href="https://github.com/Shashank-48s/AI-powered-gym-management-system-">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/generative-ai-fitness-empty-gym-equipment-exercise-workout-sports-wellness-weightlifting-studi-studio-health-club-interior-320223045.jpg" alt="machine learning project" loading="lazy">
+          </figure>
+          <h3 class="project-title">AI-powred gym management system</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="machine-learning">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/project-7.png" alt="machine learning project" loading="lazy">
+          </figure>
+          <h3 class="project-title">Event management system</h3>
+          <p class="project-category">Machine Learning</p>
+        </a>
+      </li>
+
+      <!-- Data Analytics Projects Section -->
+      <li class="project-item active" data-filter-item data-category="data-analytics">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/Blink.jpg" alt="data analytics project" loading="lazy">
+          </figure>
+          <h3 class="project-title"> Blink it Data Analysis</h3>
+          <p class="project-category">Data Analytics</p>
+        </a>
+      </li>
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+  <!--
+    - #EXPERIENCE
+-->
+
+<article class="experience" data-page="experience">
+
+  <header>
+    <h2 class="h2 article-title">Experience</h2>
+  </header>
+
+  <section class="experience-posts">
+
+    <ul class="experience-posts-list">
+
+      <li class="experience-post-item">
+        <a href="#">
+
+          <figure class="experience-banner-box">
+            <img src="./assets/images/karunadu.jpg" alt="Karunadu Technologies Private Limited" loading="lazy">
+          </figure>
+
+          <div class="experience-content">
+
+            <div class="experience-meta">
+              <p class="experience-category">Machine Learning</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2023-10">Oct 2023 - Nov 2023</time>
+            </div>
+
+            <h3 class="h3 experience-item-title">Karunadu Technologies Private Limited</h3>
+
+            <p class="experience-text">
+              Implemented a machine learning project in Django, demonstrating knowledge in data processing, predictive modeling, and application development.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="experience-post-item">
+        <a href="#">
+
+          <figure class="experience-banner-box">
+            <img src="./assets/images/Simplilearn_Logo.jpg" alt="Simpli Learn" loading="lazy">
+          </figure>
+
+          <div class="experience-content">
+
+            <div class="experience-meta">
+              <p class="experience-category">Web Development</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-09">Sep 2024</time>
+            </div>
+
+            <h3 class="h3 experience-item-title">Simpli Learn</h3>
+
+            <p class="experience-text">
+              Developed client websites and supported team in building robust digital solutions.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="experience-post-item">
+        <a href="#">
+
+          <figure class="experience-banner-box">
+            <img src="./assets/images/TAFE_CTW.jpg" alt="TAFE, Tractors and Farm Equipment's Limited" loading="lazy">
+          </figure>
+
+          <div class="experience-content">
+
+            <div class="experience-meta">
+              <p class="experience-category">Manufacturing</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2022-01">Jan 2022 - Sep 2022</time>
+            </div>
+
+            <h3 class="h3 experience-item-title">TAFE, Tractors and Farm Equipment's Limited</h3>
+
+            <p class="experience-text">
+              Completed 9 Months implant training as CNC Operator, focusing on precision machining and tool management.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+<!--         - #CONTACT       -->        
+<article class="contact" data-page="contact">
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+    <form action="https://formspree.io/f/mpwzynlp" method="POST" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      <button class="form-btn" type="submit">
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+  </section>
+</article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
