@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>  
+<body>
+    <header>
+        <a href="#" class="logo">Port<span>Folio.</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar"> 
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/shashank-ai-ml/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Shashank-48s"><i class="bx bxl-github"></i></a>
+        </div>
+        <div class="home-img">
+            <img class="hero user-image" src="My pic.jpg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Shashank S</h1>
+            <h2>I am a <span class="role"></span> </h2>
+            <p>Here is my portfolio website. Here you'll learn about my journey as a Data analyst.</p>
+            <a href="Shashank_Data_Analyst_Resume.pdf" class="btn">Download CV</a>
+            <div class="absolute faded-text">Shashank S</div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction </span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img class="hero" src="My pic.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>I’m a passionate and detail-oriented Data Analyst with hands-on experience in transforming raw data into actionable insights that drive business decisions. I specialize in SQL, Excel, Power BI, and Python for data analysis, visualization, and reporting.
+                    From customer segmentation to churn analysis, I love solving real-world problems through data storytelling and dashboarding. I’ve built end-to-end projects that involve data cleaning, analysis, and visualization—focused on delivering clear, impactful results.
+                 I thrive in fast-paced environments, continuously improve my skill set, and enjoy collaborating with teams to turn data into strategy. Whether it’s uncovering trends, building dashboards, or optimizing decision-making—I’m here to make data make sense.</p>
+                <div class="information">
+                    <div class="info-box">
+                        <i class="bx bxs-user"></i>
+                        <span>Shashank S</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-phone-call'></i>
+                        <span>+91 9741347874</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxl-gmail' ></i>
+                        <span>shashankgowdru048@gmail.com</span>
+                    </div>
+                </div>
+                <a href="Shashank_Data_Analyst_Resume.pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="bars">
+                <div class="bars-box">
+                    <h3>Excel</h3>
+                    <span>95%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Python</h3>
+                    <span>85%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>SQL</h3>
+                    <span>75%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Power BI</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img class="hero" src="skills.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-line-chart"></i>
+                <h3>Data analysis</h3>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-wrench"></i>
+                <h3>Data wrangling</h3>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-data"></i>
+                <h3>Sql</h3>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-bar-chart-square"></i>
+                <h3>Power BI</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="heading">
+            <h2>Projects</h2>
+            <span>My Work</span>
+        </div>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-box">
+                <img src="Blinkit dashboard.png" alt="Blinkit Segmentation Dashboard">
+                <h3>Blinkit Customer Segmentation</h3>
+                <a href="https://github.com/Shashank-48s/Blinkit-Data_analytics" target="_blank">
+                    <i class="bx bxl-github"></i> View on GitHub
+                </a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-box">
+                <img src="Churn analysis.png" alt="Customer Churn Analysis">
+                <h3>Customer Churn Analysis</h3>
+                <a href="https://github.com/Shashank-48s/Customer_Churn_analytics" target="_blank">
+                    <i class="bx bxl-github"></i> View on GitHub
+                </a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-box">
+                <img src="https://products.projectworlds.in/wp-content/uploads/2021/03/insert.png" alt="Data Wrangling Project">
+                <h3>Diabetes prediction using Machine learning</h3>
+                <a href="https://github.com/Shashank-48s/diabetes_d" target="_blank">
+                    <i class="bx bxl-github"></i> View on GitHub
+                </a>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-box">
+                <img src="Bank churn.png" alt="Power BI Dashboard">
+                <h3>Bank Churn Dashboard in Power BI</h3>
+                <a href="https://github.com/Shashank-48s/Bank-Churn-Dashboard" target="_blank">
+                    <i class="bx bxl-github"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </section>    
+    
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Us</span>
+        </div>
+        <section class="contact" id="contact">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mpwzynlp" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                    <input type="submit" value="Send" class="contact-button">
+                </form>
+            </div>
+        </section>
+
+    <div class="footer">
+        <h2>Follow Us</h2>
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/shashank-ai-ml/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Shashank-48s"><i class="bx bxl-github"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        &#169; Shashank-Portfolio | All Right Reserved
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Data analyst",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+</html> 
